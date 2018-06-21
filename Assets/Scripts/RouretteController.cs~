@@ -1,8 +1,10 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class RouretteController : MonoBehaviour {
 	float rotSpeed = 0;
+	public GameObject startBtn = GameObject.FindGameObjectWithTag("StartButton");
 
 	void Update () {
 		if (Input.GetMouseButtonDown(0)) {
